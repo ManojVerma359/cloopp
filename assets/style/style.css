@@ -575,6 +575,9 @@ hr {
   .pb_80 {
     padding-bottom: 30px;
   }
+  .w_146 {
+    max-width: 106.29px;
+  }
   :root {
     --fs-24: 19px;
     --fs-80: 43px;
