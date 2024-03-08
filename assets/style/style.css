@@ -293,7 +293,7 @@ p {
   color: #0073b1;
   padding: 15px 32px 15px 32px;
   border: none;
-  border-radius: 10px;
+  border-radius: 9px;
   transition: all 300ms linear;
 }
 .join_btn:hover {
