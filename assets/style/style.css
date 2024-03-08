@@ -434,7 +434,7 @@ hr {
   :root {
     --fs-80: 74px;
     --fs-64: 64px;
-    --fs-52: 45px;
+    --fs-52: 39px;
   }
 }
 @media (max-width: 992px) {
