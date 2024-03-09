@@ -92,6 +92,9 @@
 .cursor_pointer {
   cursor: pointer;
 }
+.ftext_clr{
+  color: #cfcfcf;
+}
 .underline_nav::after {
   position: absolute;
   content: "";
@@ -175,6 +178,7 @@ ul {
   position: absolute;
   left: -28%;
   bottom: 35%;
+  z-index: -1 !important;
 }
 .w_97 {
   max-width: 97.3px;
@@ -297,7 +301,8 @@ p {
   transition: all 300ms linear;
 }
 .join_btn:hover {
-  background: #c5c5c5;
+  background: #f8b672;
+  color: white;
   transition: all 300ms linear;
 }
 .accordion_1 .accordion-button:focus {
@@ -430,14 +435,22 @@ hr {
 #myBtn:hover {
   background-color: #555;
 }
+@media (max-width: 1399.9px) {
+  :root {
+    --fs-80: 64px;
+     }
+}
 @media (max-width: 1200px) {
   :root {
-    --fs-80: 74px;
+    --fs-80: 53px;
     --fs-64: 64px;
     --fs-52: 39px;
   }
+  .h_851 {
+    height: 715px !important;
 }
-@media (max-width: 992px) {
+}
+@media (max-width: 991.9px) {
   .w_616 {
     max-width: 100%;
   }
@@ -479,9 +492,8 @@ hr {
     right: -100%;
     width: 100%;
     min-height: 100vh;
-    background-color: transparent;
-    backdrop-filter: blur(51px);
-    transition: 600ms linear;
+    background-color: #0576b3;   
+    transition: 400ms linear;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -539,7 +551,6 @@ hr {
     z-index: -1;
     max-height: 110px;
   }
-
   .vector_6 {
     position: absolute;
     bottom: -3%;
