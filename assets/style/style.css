@@ -479,7 +479,7 @@ hr {
     padding-left: 25px !important;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .h_851 {
     height: 510px;
   }
